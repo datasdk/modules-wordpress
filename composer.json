@@ -1,0 +1,33 @@
+{
+    "name": "nwidart/wordpress",
+    "description": "Wordpress module for Laravel 12 project",
+    "type": "library",
+    "require": {
+   
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Wordpress\\": "",
+            "Modules\\Wordpress\\Database\\Factories\\": "database/factories/",
+            "Modules\\Wordpress\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Wordpress\\Tests\\": "tests/"
+        }
+    }
+}

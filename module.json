@@ -1,0 +1,13 @@
+{
+    "name": "Wordpress",
+    "alias": "wordpress",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Wordpress\\Providers\\WordpressServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

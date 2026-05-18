@@ -1,14 +1,17 @@
 {
-    "name": "nwidart/wordpress",
+    "name": "datasdk/wordpress-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "Wordpress module for Laravel 12 project",
-    "type": "library",
+
     "require": {
    
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
